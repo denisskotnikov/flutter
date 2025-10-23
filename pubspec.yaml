@@ -1,0 +1,34 @@
+name: camp_david_app
+description: "Camp David Products App"
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  json_annotation: ^4.8.1
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  firebase_core: ^2.24.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
+# Добавьте это для веб-сборки
+web:
+  renderer: html
